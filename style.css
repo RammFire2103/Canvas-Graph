@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+canvas {
+  box-sizing: border-box;
+}
+
+.canvas-wrapper {
+  padding: 10vh;
+  align-self: center;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+form {
+  box-shadow: -5px 5px 5px black;
+  background-color: cadetblue;
+  padding: 50px;
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  max-height: 100vh;
+  gap: 20px;
+  grid-template-rows: repeat(3, minmax(30px, 60px));
+}
+
+form * {
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+form input {
+  padding: 10px;
+}
+
+button {
+  background-color: cornflowerblue;
+}
